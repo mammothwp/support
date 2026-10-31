@@ -1,0 +1,14 @@
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+    level: 6
+    paths:
+        - bootstrap.php
+        - src
+        - views
+    scanFiles:
+        - vendor/php-stubs/wp-cli-stubs/wp-cli-stubs.php
+    scanDirectories:
+        - vendor/mammothwp/wp-kit/src
+    treatPhpDocTypesAsCertain: false

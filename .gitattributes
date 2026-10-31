@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+/tests/ export-ignore
+/docs/ export-ignore
+/.gitlab-ci.yml export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/phpcs.xml.dist export-ignore
+/phpstan.neon.dist export-ignore
+/phpunit.xml.dist export-ignore
+/HOOKS.md export-ignore
+/CHANGELOG.md export-ignore
